@@ -1,11 +1,11 @@
 # Supplementary Code
 
-Code to reproduce all experiments from *Coordinate-Aware Simplicial Message
+Code to reproduce all experiments from *Geometry-Aware Simplicial Message
 Passing: The Euler Characteristic Transform as a Complete Geometric Invariant*.
 
 ## Files
 
-- `models.py` — Neural network architectures (SimplicialNet, GraphNet, DeepSet, MLP).
+- `models.py` — Neural network architectures (SimplicialNet, GraphNet, DeepSets, MLP).
 - `utils.py` — Topology construction, mesh deformation, ECT computation, training loops.
 - `run_experiments.py` — Experiment runner with CLI for all paper results.
 
