@@ -1,7 +1,7 @@
 # Supplementary Code
 
 Code to reproduce all experiments from *Geometry-Aware Simplicial Message
-Passing: The Euler Characteristic Transform as a Complete Geometric Invariant*.
+Passing.
 
 ## Files
 
