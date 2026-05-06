@@ -23,18 +23,18 @@ For FAUST experiments: `pip install torch-geometric openmesh`
 ## Usage
 
 ```bash
-# Synthetic experiments (Tables 1, 2, 4, 5, 6)
+# Synthetic experiments
 python run_experiments.py --exp family --hd 32 --L 4 --epochs 80
 python run_experiments.py --exp ect --hd 32 --L 4 --epochs 80
 python run_experiments.py --exp coboundary --hd 32 --L 4 --epochs 80
 python run_experiments.py --exp permutation --hd 32 --L 4 --epochs 80
 python run_experiments.py --exp confounded --hd 32 --L 4 --epochs 120
 
-# MANTRA experiments (Tables 9, 10)
+# MANTRA experiments
 python run_experiments.py --exp mantra --hd 32 --L 4 --epochs 100
 python run_experiments.py --exp mantra_ect --hd 32 --L 4 --epochs 100
 
-# FAUST experiments (Tables 3, 11)
+# FAUST experiments
 python run_experiments.py --exp faust_pose --hd 16 --L 3 --epochs 200
 python run_experiments.py --exp faust_reg --hd 16 --L 3 --epochs 200
 
