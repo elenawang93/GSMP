@@ -4,16 +4,16 @@ Usage:
     python run_experiments.py --exp <name> [options]
 
 Experiments:
-    family      Deformation family classification (Table 1)
-    ect         ECT vector regression (Table 2)
-    coboundary  Per-vertex curvature with depth sweep (Table 5)
-    permutation Permutation equivariance test (Table 6)
-    mantra      Deformation classification on MANTRA (Table 9)
-    mantra_ect  ECT regression on MANTRA (Table 10)
-    faust_pose  FAUST 10-way pose classification (Table 3)
-    faust_reg   FAUST geometric regression (Table 11)
-    confounded  Geometric summary regression (Table 4)
-
+    family      Deformation family classification
+    ect         ECT vector regression
+    coboundary  Per-vertex curvature with depth sweep
+    permutation Permutation equivariance test
+    mantra      Deformation classification on MANTRA
+    mantra_ect  ECT regression on MANTRA
+    faust_pose  FAUST 10-way pose classification
+    faust_reg   FAUST geometric regression
+    confounded  Geometric summary regression
+    
 Example:
     python run_experiments.py --exp family --hd 32 --L 4 --epochs 80
     python run_experiments.py --exp faust_pose --hd 16 --L 3 --epochs 200
